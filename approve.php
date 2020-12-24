@@ -32,7 +32,7 @@ $gender = $array["gender"];
 $epic_no = $array["epic_no"];
 mysqli_stmt_close($stmt);
 $mail = new PHPMailer;
-            $admin_mail = 'me@shreyasmk.me';       
+            $admin_mail = '';       
             $mail->isSMTP();                                      // Set mailer to use SMTP
             $mail->Host = 'smtp.mailgun.org';                     // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
