@@ -7,9 +7,9 @@ Secure Online Voting System
 * SMTP Account if you want to send vote confirmation e-mail
 
 # What all to be done
-* Put your smtp credentials in required files(approve.php,voted-details.php,sign-up.php)
+* Put your smtp credentials in required files([approve.php](approve.php),[voted-details.php](voted-details.php),[sign-up.php](sign-up.php))
 * Open phpmyadmin
-* Import dbms.sql by creating a new database: dbms
+* Import [dbms.sql](dbms.sql) by creating a new database: dbms
 * Enter a new password in the admin table in order to access admin area
 * Use this password in the admin.php file to successfully login
 
