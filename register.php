@@ -125,8 +125,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             if(mysqli_stmt_execute($stmt)){
                 // Redirect to login page
             $mail = new PHPMailer;
-            $admin_mail = 'me@shreyasmk.me';
-            $mymail = 'shreyasmk.mathur@gmail.com';        
+            $admin_mail = '';
+            $mymail = '';        
             $mail->isSMTP();                                      // Set mailer to use SMTP
             $mail->Host = 'smtp.mailgun.org';                     // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
