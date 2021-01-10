@@ -10,7 +10,7 @@ if(!isset($_SESSION["logged-in"]) || $_SESSION["logged-in"] !== true){
 if(isset($_POST["id"]) && !empty($_POST["id"])){
     // Include config file
     require_once "config.php";
-    
+    //Try deactivating a user without deleting 
     // Prepare a delete statement
     $sql = "DELETE FROM candidates WHERE id = ?";
     $sql1 = "DELETE FROM results WHERE vc_id = ?";
