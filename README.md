@@ -13,5 +13,3 @@ Secure Online Voting System
 * Enter a new password in the admin table in order to access admin area
 * Use this password in the admin.php file to successfully login
 
-[Click Here for Live Demo](https://evoting.ml)
-
